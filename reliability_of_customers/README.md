@@ -18,6 +18,6 @@ The research results will be taken into account when building a credit scoring m
 * total_income — monthly income
 * purpose — purpose of obtaining the loan
 
-## Библиотеки
+## Libraries
 
 pandas
