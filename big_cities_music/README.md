@@ -1,23 +1,22 @@
-# Музыка больших городов
-## Задача
-На реальных данных Яндекс Музыки проверить гипотезы и сравнить поведение пользователей Москвы и Санкт-Петербурга.
+# Big cities music
+## Task
+To test hypotheses and compare the behavior of users in Moscow and St. Petersburg using real data from Yandex Music.
 
-**Гипотезы**
-* Активность пользователей зависит от дня недели. Причём в Москве и Петербурге это проявляется по-разному.
-* Утром в понедельник в Москве преобладают одни жанры музыки, а в Петербурге — другие. Это верно и для вечера пятницы.
-* Москва и Петербург предпочитают разные жанры музыки. В Москве чаще слушают поп-музыку, в Петербурге — русский рэп.
+**Hypotheses**
+* User activity depends on the day of the week. Moreover, this manifests differently in Moscow and St. Petersburg.
+* On Monday morning, certain music genres dominate in Moscow, while different genres dominate in St. Petersburg. This is also true for Friday evening.
+* Moscow and St. Petersburg prefer different music genres. In Moscow, pop music is more frequently listened to, while in St. Petersburg, Russian rap is more popular.
 
-## Описание данных
+## Data description
 
-**Датасет yandex_music_project**:
-* userID — идентификатор пользователя;
-* Track — название трека;
-* artist — имя исполнителя;
-* genre — название жанра;
-* City — город пользователя;
-* time — время начала прослушивания;
-* Day — день недели.
+* userID — user identifier;
+* Track — track name;
+* artist — artist name;
+* genre — genre name;
+* City — user's city;
+* time — start time of listening;
+* Day — day of the week.
 
-## Библиотеки
+## Libraries
 
 pandas
