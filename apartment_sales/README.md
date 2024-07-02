@@ -1,34 +1,34 @@
-# Research on apartment sale listings
-## Task
-It is necessary to determine the market value of real estate based on an archive of apartment sale listings in St. Petersburg and nearby localities over several years. To do this, an exploratory data analysis needs to be conducted to identify the parameters that influence property prices. This will enable the development of an automated system that will track anomalies and fraudulent activities.
-For each apartment on sale, two types of data are available. The first type is entered by the user, and the second type is obtained automatically based on cartographic data. For example, the distance to the city center, airport, and other objects — these data are automatically obtained from geoservices. The number of parks and bodies of water is also filled in without user participation.
+# Исследование объявлений о продаже квартир
+## Задача
+Есть архив объявлений о продаже квартир в Санкт-Петербурге и соседних населённых пунктах за несколько лет. Нужно определить рыночную стоимость объектов недвижимости. Для этого нужно провести исследовательский анализ данных и установить параметры, влияющие на цену объектов. Это позволит построить автоматизированную систему: она отследит аномалии и мошенническую деятельность.
+По каждой квартире на продажу доступны два вида данных. Первые вписаны пользователем, вторые — получены автоматически на основе картографических данных. Например, расстояние до центра, аэропорта и других объектов — эти данные автоматически получены из геосервисов. Количество парков и водоёмов также заполняется без участия пользователя.
 
-## Data description
+## Описание данных
 
-* airports_nearest — distance to the nearest airport in meters (m)
-* balcony — number of balconies
-* ceiling_height — ceiling height (m)
-* cityCenters_nearest — distance to the city center (m)
-* days_exposition — number of days the listing was posted (from publication to removal)
-* first_day_exposition — publication date
-* floor — floor
-* floors_total — total number of floors in the building
-* is_apartment — apartment (boolean type)
-* kitchen_area — kitchen area in square meters (m²)
-* last_price — price at the time of removal from publication
-* living_area — living area in square meters (m²)
-* locality_name — name of the locality
-* open_plan — open plan (boolean type)
-* parks_around3000 — number of parks within a 3 km radius
-* parks_nearest — distance to the nearest park (m)
-* ponds_around3000 — number of bodies of water within a 3 km radius
-* ponds_nearest — distance to the nearest body of water (m)
-* rooms — number of rooms
-* studio — studio apartment (boolean type)
-* total_area — total area of the apartment in square meters (m²)
-* total_images — number of photos of the apartment in the listing
+* airports_nearest — расстояние до ближайшего аэропорта в метрах (м)
+* balcony — число балконов 
+* ceiling_height — высота потолков (м)
+* cityCenters_nearest — расстояние до центра города (м)
+* days_exposition — сколько дней было размещено объявление (от публикации до снятия)
+* first_day_exposition — дата публикации 
+* floor — этаж 
+* floors_total — всего этажей в доме 
+* is_apartment — апартаменты (булев тип)
+* kitchen_area — площадь кухни в квадратных метрах (м²)
+* last_price — цена на момент снятия с публикации 
+* living_area — жилая площадь в квадратных метрах (м²)
+* locality_name — название населённого пункта 
+* open_plan — свободная планировка (булев тип)
+* parks_around3000 — число парков в радиусе 3 км 
+* parks_nearest — расстояние до ближайшего парка (м)
+* ponds_around3000 — число водоёмов в радиусе 3 км 
+* ponds_nearest — расстояние до ближайшего водоёма (м)
+* rooms — число комнат 
+* studio — квартира-студия (булев тип)
+* total_area — общая площадь квартиры в квадратных метрах (м²)
+* total_images — число фотографий квартиры в объявлении
 
-## Libraries
+## Библиотеки
 
 * pandas
 * matplotlib

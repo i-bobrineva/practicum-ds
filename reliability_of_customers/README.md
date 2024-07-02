@@ -1,23 +1,22 @@
-# Reliability of borrowers
-## Task
-The client is the bank's credit department. It is necessary to determine whether the marital status and the number of children of a client affect the fact of timely loan repayment. The input data from the bank is statistics on clients' creditworthiness.
-The research results will be taken into account when building a credit scoring model — a special system that assesses the ability of a potential borrower to repay the loan to the bank.
+# Исследование надёжности заёмщиков
+## Задача
+Заказчик — кредитный отдел банка. Нужно разобраться, влияет ли семейное положение и количество детей клиента на факт погашения кредита в срок. Входные данные от банка — статистика о платёжеспособности клиентов.
+Результаты исследования будут учтены при построении модели кредитного скоринга — специальной системы, которая оценивает способность потенциального заёмщика вернуть кредит банку.
+## Описание данных
 
-## Data description
+* children — количество детей в семье 
+* days_employed — общий трудовой стаж в днях 
+* dob_years — возраст клиента в годах 
+* education — уровень образования клиента 
+* education_id — идентификатор уровня образования 
+* family_status — семейное положение 
+* family_status_id — идентификатор семейного положения 
+* gender — пол клиента 
+* income_type — тип занятости 
+* debt — имел ли задолженность по возврату кредитов 
+* total_income — ежемесячный доход 
+* purpose — цель получения кредита
 
-* children — number of children in the family
-* days_employed — total work experience in days
-* dob_years — client's age in years
-* education — client's education level
-* education_id — education level identifier
-* family_status — marital status
-* family_status_id — marital status identifier
-* gender — client's gender
-* income_type — type of employment
-* debt — whether there was a debt on loan repayment
-* total_income — monthly income
-* purpose — purpose of obtaining the loan
-
-## Libraries
+## Библиотеки
 
 pandas
