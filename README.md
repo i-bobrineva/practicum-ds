@@ -2,7 +2,7 @@
 
 Эти проекты были выполнены в ходе обучения в Яндекс Практикуме на курсе «Специалист по Data Science».
 
-| Номер проекта      | Название проекта      | Описание               | Используемые библиотеки     |
+| Номер      | Название проекта      | Описание               | Используемые библиотеки     |
 | :-------------------- | :-------------------- | :--------------------- |:---------------------------|
 | 1 | [Музыка больших городов](https://github.com/i-bobrineva/practicum-ds/tree/main/big_cities_music) | Сравнение предпочтений пользователей Яндекс Музыки из Москвы и Санкт-Петербурга в зависимости от времени (утро и вечер) и дня недели (понедельник, среда, пятница) | pandas |
 | 2 | [Исследование надёжности заёмщиков](https://github.com/i-bobrineva/practicum-ds/tree/main/reliability_of_customers) | Анализ влияния семейного положения и количества детей клиента на факт погашения кредита в срок | pandas |
@@ -13,7 +13,7 @@
 | 7 | [МО для маркетплейса](https://github.com/i-bobrineva/practicum-ds/tree/main/marketplace) | Разработка решения, которое позволит персонализировать предложения постоянным клиентам, чтобы увеличить их покупательскую активность | pandas, numpy, scipy, matplotlib, phik, seaborn, sklearn, shap |
 | 8 | [МО для HR-аналитики компании](https://github.com/i-bobrineva/practicum-ds/tree/main/HR_analytics) | Создание модели, которая сможет на основе данных заказчика предсказать то, что сотрудник уволится из компании | pandas, numpy, scipy, matplotlib, phik, seaborn, sklearn, shap |
 | 9 | [Выбор локации для скважины](https://github.com/i-bobrineva/practicum-ds/tree/main/oil_extraction_company) | Исследование для нефтедобывающей компании: нужно решить, где бурить новую скважину | pandas, numpy, scipy, matplotlib, phik, seaborn, sklearn, shap |
-| 10 | [Определение стоимости автомобилей](https://github.com/i-bobrineva/practicum-ds/tree/main/oil_extraction_company) | Исследование для сервиса по продаже автомобилей: нужно построить модель, которая умеет определять стоимость автомобиля по техническим характеристикам, комплектации и ценах других автомобилей | pandas, numpy, scipy, matplotlib, phik, seaborn, sklearn, shap, lightgbm, time, math |
+| 10 | [Определение стоимости автомобилей](https://github.com/i-bobrineva/practicum-ds/tree/main/car_prices) | Исследование для сервиса по продаже автомобилей: нужно построить модель, которая умеет определять стоимость автомобиля по техническим характеристикам, комплектации и ценах других автомобилей | pandas, numpy, scipy, matplotlib, phik, seaborn, sklearn, shap, lightgbm, time, math |
 | 11 | [Прогнозирование заказов такси](https://github.com/i-bobrineva/practicum-ds/tree/main/taxi_orders) | Прогнозирование количества заказов такси на следующий час, чтобы привлекать больше водителей в период пиковой нагрузки | pandas, numpy, scipy, matplotlib, phik, seaborn, sklearn, os, catboost, statsmodels |
 | 12 | [Проект для маркетплейса c BERT](https://github.com/i-bobrineva/practicum-ds/tree/main/nlp_for_marketplace) | Обучение модели классифицировать комментарии на позитивные и негативные по набору данных с разметкой о токсичности правок | pandas, numpy, matplotlib, sklearn, nltk, re, torch, transformers, tqdm |
 | 13 | [Определение возраста покупателей](https://github.com/i-bobrineva/practicum-ds/tree/main/cv) | Создание модели, которая по фотографии определяет приблизительный возраст покупателей супермаркета | pandas, matplotlib, tensorflow |
